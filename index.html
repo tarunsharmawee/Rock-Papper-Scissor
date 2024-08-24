@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link href="Css/style.css" rel="stylesheet">
+</head>
+<body>
+    <p id="name">Rock Paper Scissor</p>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="images/rock.jpg">
+        </div>
+        <div class="choice" id="paper">
+            <img src="images/paper.jpg">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="images/scisors.jpg">
+        </div>
+    </div>
+    <br><br>
+    <button class="Move" id="btn">
+        secret Move!
+    </button>
+    <div class="hide" id="hidden">
+    <div class="choice" id="Secreat">
+        <img src="images/secreat move.jpg">
+    </div>
+    </div>
+    <br><br>
+    <p id="cur-score">Current Score</p><br>
+    <div class="score-board">
+        <div id="user-score">
+            <p class="score" id="USER">0</p>
+            <p>You</p>
+        </div>
+        <div id="draw-score">
+            <p class="score" id="DRAW">0</p>
+            <p>Game Drawed</p>
+        </div>
+        <div id="ai-score">
+            <p  class="score" id="AI">0</p>
+            <p>AI</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg" class="">What You Lokkin at, Choose Your Move As*hole! </p>
+    </div>
+    <script src="Scripts/script.js"></script>
+</body>
+</html>

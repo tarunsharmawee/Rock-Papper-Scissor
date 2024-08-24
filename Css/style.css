@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    background-color: #FFD6AF;
+}
+#name{
+    background-color: #4E362D;
+    color: aliceblue;
+    padding: 6vmin;
+    text-shadow: 5px 1 whitesmoke;
+    font-size: 6vmin;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.choice{ 
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 20vmin;
+    width: 20vmin;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin-top: 5vmin;
+    gap: 3rem;
+}
+.choice:hover{
+    opacity: .7;
+    cursor: pointer;
+    border: 1vmin solid black;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmin;
+    gap: 5rem;
+}
+.score{
+    font-size: 8vmin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cur-score{
+    display: block;
+    font-size: 6vmin;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#msg{
+    margin-top: 1rem;
+    background-color: #805d50;
+    color: white;
+    font-size: 4vmin;
+    display: inline;
+    padding: 2vmin 4vmin 2vmin 4vmin;
+    border-radius: 2vmin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.msg-container{
+    margin-top: 7vmin;
+}
+#draw-score{
+    color: #16425B;
+}
+.Move{
+    font-size: 10px;
+    size: 10px;
+    background-color: #FFD6AF;
+    border: none;
+    color: #fccb9d;
+}
+.Move:hover{
+    font-size: 15px;
+    size: 15px;
+    background-color: #ffcfa1;
+    border: none;
+    color: #fec794;
+}
+#Secreat{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin-left: 95vmin;;
+    margin-top: 5vmin;
+}
+.hide{
+    display: none;
+}
